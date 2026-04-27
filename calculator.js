@@ -28,12 +28,8 @@ arr.forEach(button =>
                     alert("wrong input");
                     string="";
                 }   
-            else if(string[0]=='+' )
-            {
-                    alert("wrong input");
-                    string="";
-            }  
-          else if(string[0]=='-' )
+            
+          else if(string[0]=='*' )
             {
                     alert("wrong input");
                     string="";
